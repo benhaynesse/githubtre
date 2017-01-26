@@ -4,8 +4,7 @@
 public class main {
 
     public static void main(String[] args){
-        System.out.println("The dog goes " + Dog.speak());
-        System.out.println("The cat goes " + Cat.speak());
+        //FUCK YOU
     }
 
 }
