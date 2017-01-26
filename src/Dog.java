@@ -1,10 +1,15 @@
 /**
  * Created by Ben on 26/01/2017.
  */
-public class Dog {
+public class Dog extends Animal {
 
-    public static String speak(){
-        return "woof woof";
+    public Dog(String type) {
+        super(type);
+    }
+
+    @Override
+    public String speak() {
+        return "WOOF";
     }
 
 }
